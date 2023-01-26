@@ -23,5 +23,34 @@ namespace Desktop
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (Validator.NameValid(Name) == false)
+            {
+                MessageBox.Show("Неправильно введено имя");
+            }
+            else if (Validator.EmailValid(Email) == false)
+            {
+                MessageBox.Show("Неправильно введена почта");
+            }
+            else if (Validator.CheckPassValid(Password1, Password2) == false)
+            {
+                MessageBox.Show("Пароли не совпадают");
+            }
+            else
+            {
+                var wind = new MainEmpty();
+                wind.Show();
+                this.Close();
+            }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var wind = new Log_In();
+            wind.Show();
+            this.Close();
+        }
     }
 }
