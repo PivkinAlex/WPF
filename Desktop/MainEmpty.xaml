@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainEmpty" Height="600" Width="800">
     <Grid >
-        
-            <Image Source="C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Image\Avatarka.png" Width="75" Height="75" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,15,0,0"></Image>
+
+        <Image Source="C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Desktop\Image\Avatarka.png" Width="75" Height="75" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,15,0,0"></Image>
             <Label  FontFamily="Actor" FontSize="18" Content="Добро пожаловать!" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="150,150,0,0"/>
             <Label  FontFamily="Actor" FontSize="18" Content="Создайте свою первую задачу!" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="150,200,0,0" BorderThickness="0,30,0,0"></Label>
             <WrapPanel Margin="0 300 0 0" HorizontalAlignment="Center" VerticalAlignment="Top">

@@ -28,11 +28,17 @@ namespace Desktop
         {
             if (Validator.EmailValid(Login) == false)
             {
-                MessageBox.Show("Неправильно введен логин");
+                if (string.IsNullOrWhiteSpace(Login.Text))
+                    MessageBox.Show("Пустое значение адреса почты недопустимо");
+                else
+                    MessageBox.Show("Неправильно введен логин");
             }
             else if (Validator.PassValid(Password) == false)
             {
-                MessageBox.Show("Неправильно введен пароль");
+                if (string.IsNullOrWhiteSpace(Password.Password))
+                    MessageBox.Show("Пустое значение пароля недопустимо");
+                else
+                    MessageBox.Show("Неправильно введен пароль");
             }
             else
             {
@@ -44,7 +50,7 @@ namespace Desktop
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-           
+
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
