@@ -18,3 +18,5 @@ C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Desktop\obj\Debug\Deskto
 C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Desktop\obj\Debug\Desktop.pdb
 C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Desktop\obj\Debug\Registration.g.cs
 C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Desktop\obj\Debug\Registration.baml
+C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Desktop\obj\Debug\MainEmpty.g.cs
+C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Desktop\obj\Debug\MainEmpty.baml
