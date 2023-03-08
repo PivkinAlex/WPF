@@ -11,7 +11,7 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Image Source="C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Image\Logo.png"
+        <Image Source="C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Desktop\Image\Logo.png"
                Margin="70 70 0 0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="150" Height="150" />
         <WrapPanel Orientation="Vertical" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Label Content="Добро пожаловать!" FontSize="32" FontFamily="Actor"/>

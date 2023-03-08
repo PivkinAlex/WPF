@@ -1,0 +1,10 @@
+C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Todo.Entities\bin\Debug\Todo.Entities.dll
+C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Todo.Entities\bin\Debug\Todo.Entities.pdb
+C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Todo.Entities\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Todo.Entities\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Todo.Entities\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Todo.Entities\obj\Debug\Todo.Entities.csproj.AssemblyReference.cache
+C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Todo.Entities\obj\Debug\Todo.Entities.csproj.CoreCompileInputs.cache
+C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Todo.Entities\obj\Debug\Todo.Entities.csproj.CopyComplete
+C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Todo.Entities\obj\Debug\Todo.Entities.dll
+C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Todo.Entities\obj\Debug\Todo.Entities.pdb

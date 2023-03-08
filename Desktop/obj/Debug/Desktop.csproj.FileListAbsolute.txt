@@ -20,3 +20,6 @@ C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Desktop\obj\Debug\Regist
 C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Desktop\obj\Debug\Registration.baml
 C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Desktop\obj\Debug\MainEmpty.g.cs
 C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Desktop\obj\Debug\MainEmpty.baml
+C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Desktop\bin\Debug\Todo.Entities.dll
+C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Desktop\bin\Debug\Todo.Entities.pdb
+C:\Users\alesh\OneDrive\Рабочий стол\C#\Todo\Desktop\obj\Debug\Desktop.csproj.CopyComplete

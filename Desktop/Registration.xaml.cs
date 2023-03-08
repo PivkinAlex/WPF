@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Desktop.Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -49,15 +50,20 @@ namespace Desktop
                 else
                     MessageBox.Show("Пароль слишком короткий (минимум 6 символов)");
             }
-            else if (Validator.CheckPassValid(Password1, Password2) == false)
+            else if (Validator.CheckPassValid(Password1, Password2))
             {
                 MessageBox.Show("Пароли не совпадают");
             }
-            else
+            else if (UserRepository.CheckEmail(Email.Text))
             {
+                UserRepository.AddUser(Name.Text, Email.Text, Password1.Password);
                 var wind = new MainEmpty();
                 wind.Show();
                 this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Почта уже зарегестрирована");
             }
         }
 

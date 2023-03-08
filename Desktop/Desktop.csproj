@@ -62,6 +62,7 @@
     <Compile Include="Registration.xaml.cs">
       <DependentUpon>Registration.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Repository\UserRepository.cs" />
     <Compile Include="Validator.cs" />
     <Page Include="Log In.xaml">
       <SubType>Designer</SubType>
@@ -120,6 +121,12 @@
   <ItemGroup>
     <Resource Include="Image\Avatarka.png" />
     <Resource Include="Image\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Todo.Entities\Todo.Entities.csproj">
+      <Project>{23f3e574-c425-461b-a5b1-4aceabd6f9bd}</Project>
+      <Name>Todo.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
