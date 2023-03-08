@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Desktop.Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -40,11 +41,15 @@ namespace Desktop
                 else
                     MessageBox.Show("Неправильно введен пароль");
             }
-            else
+            else if (UserRepository.CheckUser(Login.Text, Password.Password))
             {
                 var wind = new MainEmpty();
                 wind.Show();
                 this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Пользователя с таким логином и паролем не существует");
             }
         }
 

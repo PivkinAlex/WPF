@@ -11,10 +11,9 @@ namespace Desktop.Repository
     {
         private static List<UserModel> users = new List<UserModel>()
         {
-            new UserModel{Name="Admin", Email="Example@mail.ru", Password="135790864"},
-            new UserModel{Name="User", Email="User@mail.ru", Password="admin"}
+                        new UserModel{Name="Admin", Email="Admin@mail.ru", Password="1234567"},
+            new UserModel{Name="User", Email="User@mail.ru", Password="1234567"}
         };
-
 
 
 

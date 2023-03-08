@@ -23,5 +23,13 @@ namespace Desktop
         {
             InitializeComponent();
         }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var wind = new Log_In();
+            wind.Show();
+            this.Close();
+        }
     }
 }
+
+    
